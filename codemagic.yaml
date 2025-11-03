@@ -1,11 +1,10 @@
 workflows:
   android-release:
     name: Android Release Build
-    instance_type: mac_mini_m2
+    instance_type: linux_x2
     max_build_duration: 120
     environment:
       flutter: stable
-      xcode: latest
       java: 17
     triggering:
       events:
