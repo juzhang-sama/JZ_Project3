@@ -1,4 +1,4 @@
-﻿workflows:
+workflows:
   android-release:
     name: Android Release Build
     instance_type: linux_x2
@@ -27,4 +27,3 @@
         notify:
           success: true
           failure: true
-
