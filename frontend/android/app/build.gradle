@@ -5,6 +5,10 @@ plugins {
     id "dev.flutter.flutter-gradle-plugin"
 }
 
+ext {
+    kotlin_version = '1.9.24'
+}
+
 android {
     namespace = "com.example.frontend"
     compileSdk = 35
