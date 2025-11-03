@@ -9,8 +9,7 @@ workflows:
     triggering:
       events:
         - push
-      branches:
-        - main
+      branch: main
     scripts:
       - name: Get Flutter dependencies
         script: flutter pub get
