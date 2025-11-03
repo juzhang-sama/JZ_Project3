@@ -32,7 +32,6 @@ dependencies:
   # 图片处理
   cached_network_image: ^3.3.0
   image_picker: ^1.0.0
-  image_gallery_saver: ^2.0.0
 
   # 分享
   share_plus: ^7.0.0
