@@ -9,7 +9,7 @@
     triggering:
       events:
         - push
-      branch:
+      branches:
         - main
     scripts:
       - name: Get Flutter dependencies
