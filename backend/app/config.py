@@ -13,10 +13,10 @@ class Settings(BaseSettings):
     API_HOST: str = "0.0.0.0"
     API_PORT: int = 8000
     
-    # 数据库
-    DATABASE_URL: str = "postgresql://image_gen:password@localhost:5432/image_gen_dev"
-    
-    # Redis
+    # 数据库 - 使用 SQLite 用于开发
+    DATABASE_URL: str = "sqlite:///./image_gen.db"
+
+    # Redis - 开发环境可选
     REDIS_URL: str = "redis://localhost:6379/0"
     
     # JWT
